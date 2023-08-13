@@ -1,3 +1,4 @@
+'use client';
 import * as React from "react";
 import { Flex } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
@@ -13,7 +14,7 @@ export const Topbar = ({ title }: TopBar) => {
       </div>
       <Flex className="flex items-center gap-12">
         <NewQuestion />
-        <UserStatus name="الناز شاکردوست" avatar="https://bit.ly/dan-abramov" />
+        <UserStatus id={1} name="الناز شاکردوست" avatar="https://bit.ly/dan-abramov" />
       </Flex>
     </Flex>
   );

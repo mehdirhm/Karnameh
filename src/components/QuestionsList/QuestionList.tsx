@@ -1,4 +1,4 @@
-// @flow 
+'use client';
 import * as React from 'react';
 import { QuestionBox } from "@/Types/Types";
 import { QuestionCard } from "@/components/QuestionCard/QuestionCard";
@@ -12,7 +12,8 @@ type QuestionList = {
 export const QuestionList = () => {
     return (
         <Flex className='flex w-[100%] justify-center'>
-            <QuestionCard />
+           <QuestionCard isDeatailed={false} type='QType' />
+            
  
             
         </Flex>
