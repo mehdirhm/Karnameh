@@ -1,5 +1,5 @@
 // src/components/rtl-provider.tsx
-'use client';
+// 'use client';
 import React, { ReactNode } from 'react';
 import { CacheProvider } from '@emotion/react';
 import createCache from '@emotion/cache';
